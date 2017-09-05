@@ -1,7 +1,7 @@
 require "merkle_tree/version"
 require 'digest'
 
-class MerkleTree
+class Merkle
   attr_accessor :leafs
   def initialize(leafs)
     @leafs = leafs

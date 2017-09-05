@@ -1,7 +1,7 @@
 require "spec_helper"
 
-describe MerkleTree do
-  let(:tree){ MerkleTree.new(['a','b','c','d'])}
+describe Merkle do
+  let(:tree){ Merkle.new(['a','b','c','d'])}
   it '.leafs' do
     expect(tree.leafs).to eq(['a','b','c','d'])
   end

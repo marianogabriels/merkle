@@ -5,7 +5,7 @@ require 'merkle_tree/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "merkle_tree"
-  spec.version       = MerkleTree::VERSION
+  spec.version       = Merkle::VERSION
   spec.authors       = ["Mariano Schmidt"]
   spec.email         = ["marianogabriels@gmail.com"]
 

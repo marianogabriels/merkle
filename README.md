@@ -1,4 +1,4 @@
-# MerkleTree
+# [WIP] MerkleTree
 
 Merkle tree implementation in ruby
 
@@ -22,5 +22,6 @@ Or install it yourself as:
 
 ``` 
 data = ["hello","world","foo","bar"]
-tree = MerkleTree.new(block) 
+tree = MerkleTree.new(data) 
+tree.root # => ...
 ```
